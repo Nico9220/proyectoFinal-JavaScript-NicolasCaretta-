@@ -1,0 +1,209 @@
+.body_inicio {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  min-height: 78vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+main {
+  width: 100%;
+}
+
+/* HEADER */
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  background-color: aqua;
+}
+
+.header .nav-per {
+  background-image: -webkit-gradient(linear, left top, right top, from(#61a4bc), to(#fdf6ec));
+  background-image: linear-gradient(to right, #61a4bc, #fdf6ec);
+}
+
+.header .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 15px;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.menu nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu li {
+  margin: 20px;
+}
+
+.menu nav ul li a {
+  text-decoration: none;
+}
+
+/* BODY */
+body {
+  background-color: #E4CDA7;
+}
+
+main {
+  background-color: #E4CDA7;
+}
+
+main h1, h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 15px;
+}
+
+.imgMenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* PRODUCTOS */
+.productosPadre {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-template-areas: "guitarra bajo" "bateria piano" "ukelele flauta";
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.son {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.prd1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: guitarra;
+  max-height: 200px;
+}
+
+.prd2 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: bajo;
+}
+
+.prd3 {
+  grid-area: bateria1;
+}
+
+.prd4 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: piano;
+}
+
+.prd5 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: ukelele;
+}
+
+.prd6 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: flauta;
+}
+
+img {
+  max-width: 200px;
+}
+
+/* FOOTER */
+footer {
+  background-color: #FFE6BC;
+}
+
+.padre {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+      grid-template-areas: "redes pago contacto";
+  justify-items: center;
+}
+
+.hijo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.redes {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: redes;
+}
+
+.pago {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: pago;
+}
+
+.contacto {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: contacto;
+}
+/*# sourceMappingURL=style.css.map */

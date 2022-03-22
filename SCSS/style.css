@@ -1,0 +1,257 @@
+@media screen and (min-width: 992px) {
+  .body_inicio {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    min-height: 78vh;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  main {
+    width: 100%;
+  }
+  /* HEADER */
+  .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-image: -webkit-gradient(linear, left top, right top, from(#61a4bc), to(#062c30));
+    background-image: linear-gradient(to right, #61a4bc, #062c30);
+  }
+  .header .logo {
+    -ms-grid-column-align: center;
+        justify-self: center;
+    padding: 15px;
+  }
+  .header li {
+    list-style: none;
+  }
+  .header li a {
+    color: #f5f5f5;
+  }
+  /* BODY */
+  body {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#062c30), to(#61a4bc));
+    background-image: linear-gradient(#062c30, #61a4bc);
+  }
+  body main {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#062c30), to(#61a4bc));
+    background-image: linear-gradient(#062c30, #61a4bc);
+  }
+  body main h1, body main h2 {
+    color: #f5f5f5;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 15px;
+  }
+  body main button {
+    background-image: -webkit-gradient(linear, left top, right top, from(#DAB88B), to(#FDF6EC));
+    background-image: linear-gradient(to right, #DAB88B, #FDF6EC);
+  }
+  .imgMenu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  /* PRODUCTOS */
+  .productosPadre {
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: "guitarra bajo" "bateria piano" "ukelele flauta";
+  }
+  .son {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    justify-items: center;
+  }
+  .prd1 {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: guitarra;
+    max-height: 200px;
+  }
+  .prd2 {
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+    grid-area: bajo;
+  }
+  .prd3 {
+    grid-area: bateria1;
+  }
+  .prd4 {
+    -ms-grid-row: 2;
+    -ms-grid-column: 2;
+    grid-area: piano;
+  }
+  .prd5 {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    grid-area: ukelele;
+  }
+  .prd6 {
+    -ms-grid-row: 3;
+    -ms-grid-column: 2;
+    grid-area: flauta;
+  }
+  img {
+    max-width: 200px;
+  }
+  /*CONTACTO*/
+  .body_contacto {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    background-color: #353333;
+  }
+  .Contacto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border: none;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-item-align: center;
+        align-self: center;
+    font-family: 'Mochiy Pop P One', sans-serif;
+  }
+  .Contacto .formulario {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border: none;
+    max-width: 250px;
+    border: solid 30px #ffebcd;
+  }
+  .Contacto .campo {
+    margin: 0.75rem;
+  }
+  .Contacto .campo label {
+    display: block;
+  }
+  .Contacto .campo input {
+    padding: 0.3rem;
+    width: 100%;
+  }
+  .Contacto .campo textarea {
+    width: 100%;
+    max-width: 100%;
+    resize: vertical;
+    font-family: 'Mochiy Pop P One', sans-serif;
+  }
+  #letras {
+    color: #ffebcd;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #zona {
+    border: #ffebcd solid 1px;
+  }
+  /*CARRITO*/
+  .carrousel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 5px;
+  }
+  .carrousel .carousel-inner .carousel-item img {
+    height: 100%;
+    max-width: 300px;
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+  .btn1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  /* FOOTER */
+  footer {
+    background-color: #61a4bc;
+    border: 2px solid black;
+  }
+  .padre {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "redes pago contacto";
+    justify-items: center;
+  }
+  .hijo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .redes {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: redes;
+  }
+  .pago {
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+    grid-area: pago;
+  }
+  .contacto {
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
+    grid-area: contacto;
+  }
+}
+/*# sourceMappingURL=style.css.map */

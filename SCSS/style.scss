@@ -1,0 +1,206 @@
+@media screen and (min-width: 992px){
+
+
+.body_inicio{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display:grid;
+    min-height: 78vh;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100%;
+}
+
+/* HEADER */
+.header{
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right, #61a4bc, #062c30);
+.logo{
+    justify-self: center;
+    padding: 15px;
+}
+li{
+    list-style: none;
+    a{
+        color: #f5f5f5;
+    }
+    
+}
+}
+
+
+
+/* BODY */
+body{
+    background-image: linear-gradient(#062c30, #61a4bc);
+main{
+    background-image: linear-gradient(#062c30, #61a4bc);
+    h1, h2{
+        color:#f5f5f5;
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+}
+button{
+    background-image: linear-gradient(to right, #DAB88B, #FDF6EC);
+}
+}}
+
+.imgMenu{
+    display: flex;
+    justify-content: center;
+}
+
+/* PRODUCTOS */
+.productosPadre{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "guitarra bajo"
+    "bateria piano"
+    "ukelele flauta";
+}
+
+.son{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.prd1{
+    grid-area: guitarra;
+    max-height: 200px;
+}
+
+.prd2{
+    grid-area: bajo;
+}
+
+.prd3{
+    grid-area: bateria1;
+}
+
+.prd4{
+    grid-area: piano;
+}
+
+.prd5{
+    grid-area: ukelele;
+}
+
+.prd6{
+    grid-area: flauta;
+}
+
+img{
+    max-width: 200px;
+}
+
+/*CONTACTO*/
+
+.body_contacto{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    flex-wrap: wrap;
+    background-color: #353333;
+}
+.Contacto{
+    display: flex;
+    justify-content: center;
+    border: none;
+    align-items: center;
+    align-self: center;
+    font-family: 'Mochiy Pop P One', sans-serif;
+.formulario{
+    display: flex;
+    border: none;
+    max-width: 250px;
+    border: solid 30px #ffebcd;
+}
+.campo{
+    margin: 0.75rem;
+label{
+    display: block;
+}
+input{
+    padding: 0.3rem;
+    width: 100%
+}
+textarea{
+    width: 100%;
+    max-width: 100%;
+    resize: vertical;
+    font-family: 'Mochiy Pop P One', sans-serif;}}}
+#letras{
+    color: #ffebcd;
+    display: flex;
+    justify-content: center;}
+#zona{
+    border: #ffebcd solid 1px;}
+
+/*CARRITO*/
+
+.carrousel{
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    .carousel-inner{
+        .carousel-item{
+            img{
+                height: 100%;
+                max-width: 300px;
+                border: 2px solid black;
+                border-radius: 5px;
+            }
+        }
+    }
+}
+
+.btn1{
+    display:flex;
+    justify-content:flex-start;
+}
+
+/* FOOTER */
+footer{
+    background-color:#61a4bc;
+    border: 2px solid black;
+}
+.padre{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "redes pago contacto";
+    justify-items: center;
+}
+.hijo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.redes{
+    grid-area: redes;
+}
+.pago{
+    grid-area: pago;
+}
+.contacto{
+    grid-area:contacto;
+}
+}
